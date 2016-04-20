@@ -7,6 +7,7 @@ void main()
   int N = 6, i;
   int SearchID, found_index; 
  
+  printf("PROGRAM STARTS...\n");
   printf("\nSTUDENT GPA LIST: \n"); 
   printf("ID----Name------------------------GPA\n"); 
   for (i=0;i<N; i++)
@@ -33,5 +34,5 @@ void main()
 
       scanf("%d", &SearchID);
   }
-  printf("Bye Bye\n"); 
+  printf("Good Bye\n"); 
 }
